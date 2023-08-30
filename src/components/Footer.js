@@ -1,11 +1,12 @@
 import React from 'react';
 
-function Footer() {
+export default function Footer() {
   return (
-    <footer>
+    <footer style={{ backgroundColor: '#415F80', color: '#C0DEFF' }}>
       <p>&copy; {new Date().getFullYear()} Harrison Mohney. All rights reserved.</p>
     </footer>
   );
 }
 
-export default Footer;
+
+

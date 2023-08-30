@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'; // Import the custom styles for Header
+import './Header.css';
 
-function Header() {
+export default function Header() {
   const navStyle = {
     display: 'flex',
     justifyContent: 'space-around',
@@ -13,7 +13,7 @@ function Header() {
   };
 
   return (
-    <header>
+    <header className="header">
       <div className="header-content">
         <img className="headshot" src="http://www.imgur.com/pictureofproject.png" alt="Headshot" />
         <h1>My Portfolio Page</h1>
@@ -33,5 +33,4 @@ function Header() {
   );
 }
 
-export default Header;
 

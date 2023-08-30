@@ -1,66 +1,38 @@
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #202F40;
+  color: #C0DEFF;
 }
-
-
-header {
-  background-color: #87ceeb;
-  color: white;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav {
-  display: flex;
-  gap: 1rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-}
-
 
 .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 2rem;
+  background-color: #9FBF68;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-
 .project-card {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #6D85B6;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #C0DEFF;
+  border-radius: 8px;
 }
 
 .project-card h2 {
   margin-top: 0;
+  color: #202F40;
 }
 
-
 footer {
-  background-color: #87ceeb;
-  color: white;
+  background-color: #415F80;
+  color: #C0DEFF;
   padding: 1rem;
   text-align: center;
 }
 
-button {
-  background-color: #87ceeb; /* Light sky blue */
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-button:hover {
-  background-color: #5a9fb5; /* Darker sky blue */
-}

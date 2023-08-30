@@ -1,10 +1,13 @@
-
 .about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
   text-align: center;
+  background-color: #C0DEFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #202F40;
 }
 
 .about-header {
@@ -19,7 +22,7 @@
   border-radius: 50%;
   object-fit: cover;
   margin-right: 1rem;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .info {
@@ -29,11 +32,12 @@
 h2 {
   margin: 0;
   font-size: 1.5rem;
+  color: #9FBF68;
 }
 
 h3 {
   margin: 0;
-  color: #555;
+  color: #6D85B6;
 }
 
 .bio {
@@ -43,14 +47,3 @@ h3 {
   margin: 0 auto;
 }
 
-@media (max-width: 600px) {
-  .about-header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .headshot {
-    margin-right: 0;
-    margin-bottom: 1rem;
-  }
-}

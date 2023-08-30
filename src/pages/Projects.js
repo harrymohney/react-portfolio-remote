@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Projects.css'; // Import the custom styles for Projects
 
-function Projects() {
+export default function Projects() {
   const [projects, setProjects] = useState(null);
 
   const getProjectsData = async () => {
@@ -34,5 +34,5 @@ function Projects() {
   return <div className="container">{projects ? loaded() : <h1>Loading...</h1>}</div>;
 }
 
-export default Projects;
+
 

@@ -1,24 +1,26 @@
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css'; // Import the custom styles for Header
 
 function Header() {
-
-  //an example of an inline style for the nav tag for an initial layout - later additions, or 
-
   const navStyle = {
-    display: "flex",
-    justifyContent: "space-around",
-    borderBottom: ".2rem solid black",
-    padding: ".5rem",
-    width: "90%",
-    margin: "auto",
+    display: 'flex',
+    justifyContent: 'space-around',
+    borderBottom: '.2rem solid black',
+    padding: '.5rem',
+    width: '90%',
+    margin: 'auto',
   };
 
   return (
     <header>
-      <h1>My Portfolio Page</h1>
+      <div className="header-content">
+        <img className="headshot" src="http://www.imgur.com/pictureofproject.png" alt="Headshot" />
+        <h1>My Portfolio Page</h1>
+      </div>
       <nav style={navStyle}>
         <Link to="/">
-          <div>HOME</div>
+          <div>INTRO</div>
         </Link>
         <Link to="/about">
           <div>ABOUT</div>

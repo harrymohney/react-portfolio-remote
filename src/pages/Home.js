@@ -1,6 +1,6 @@
-function Home(props) {
-  return <h1>Home</h1>;
+export default function Home(props) {
+  return <h1>Whats good content for this page?</h1>;
 }
 
-export default Home;
+
 

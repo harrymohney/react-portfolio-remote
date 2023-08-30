@@ -10,7 +10,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 
-function App() {
+export default function App() {
 
   return (
     <div className="App">
@@ -25,5 +25,4 @@ function App() {
   );
 }
 
-export default App;
 

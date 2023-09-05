@@ -10,7 +10,8 @@
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   padding: 2rem;
-  color: #202F40;
+  color: #81BEFF;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 .home-container h1 {

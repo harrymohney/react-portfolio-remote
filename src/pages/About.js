@@ -24,6 +24,8 @@ export default function About() {
         </div>
       </div>
       <p className="bio">{about.bio}</p>
+      <br/>
+      <p className="bio2">{about.bio2}</p>
     </div>
   );
 

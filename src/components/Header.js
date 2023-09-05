@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-content">
-        <img className="headshot" src="http://www.imgur.com/pictureofproject.png" alt="Headshot" />
+        <img className="headshot" src="https://i.imgur.com/7ehIqPt.jpg" alt="Headshot" />
         <h1>My Portfolio Page</h1>
       </div>
       <nav style={navStyle}>
@@ -32,5 +32,3 @@ export default function Header() {
     </header>
   );
 }
-
-

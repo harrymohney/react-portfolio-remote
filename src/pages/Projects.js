@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Projects.css'; // Import the custom styles for Projects
+import './Projects.css';
 
 export default function Projects() {
   const [projects, setProjects] = useState(null);
@@ -17,8 +17,10 @@ export default function Projects() {
   const loaded = () => {
     return projects.map((project, index) => (
       <div className="project-card" key={index}>
-        <h2>{project.name}</h2>
-        <img src={project.image} alt={project.name} />
+        <div className="project-image-container">
+          <img src={project.image} alt={project.name} className="project-image" />
+        </div>
+        <h2 className="project-title">{project.name}</h2>
         <div className="button-container">
           <a href={project.git}>
             <button className="github-button">Github</button>
@@ -33,6 +35,3 @@ export default function Projects() {
 
   return <div className="container">{projects ? loaded() : <h1>Loading...</h1>}</div>;
 }
-
-
-

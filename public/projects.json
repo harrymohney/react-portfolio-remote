@@ -1,15 +1,15 @@
 [
   {
     "name": "JS Trivia Game",
-    "live": "https://app.herokuapp.com/whatever",
-    "git": "http://www.github.com/username/reponame",
-    "image": "http://www.imgur.com/pictureofproject.png"
+    "live": "https://harrymohney.github.io/seiGameProject/",
+    "git": "https://github.com/harrymohney/seiGameProject",
+    "image": "https://i.imgur.com/E0NMflT.png"
   },
   {
     "name": "GetMeFit",
-    "live": "https://app.netlify.app/whatever",
-    "git": "http://www.github.com/username/reponame",
-    "image": "http://www.imgur.com/pictureofproject.png"
+    "live": "https://get-me-fit-dev-2b4dfc1e9975.herokuapp.com/",
+    "git": "https://github.com/harrymohney/Get-Me-Fit-App",
+    "image": "https://github.com/harrymohney/Get-Me-Fit-App/blob/main/public/img/image-2.png?raw=true"
   }
 ]
 
